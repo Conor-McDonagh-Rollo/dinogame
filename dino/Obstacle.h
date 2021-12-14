@@ -13,6 +13,7 @@ public:
 	Obstacle(int x);
 	void Update(float speed);
 	void Draw(sf::RenderWindow& t_window);
+	sf::FloatRect getGlobalBounds() { return body.getGlobalBounds(); }
 };
 
 #endif

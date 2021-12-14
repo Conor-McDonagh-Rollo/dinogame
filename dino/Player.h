@@ -17,6 +17,7 @@ public:
 	Player();
 	void Update(sf::Int32 dt);
 	void Draw(sf::RenderWindow& t_window);
+	bool isColliding(sf::FloatRect other) { return body.getGlobalBounds().intersects(other); }
 };
 
 #endif

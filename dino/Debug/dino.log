@@ -1,2 +1,10 @@
-﻿  Player.cpp
-  dino.vcxproj -> C:\Users\C00260445\source\repos\dino\Debug\dino.exe
+﻿  Game.cpp
+C:\Users\c00260445\Desktop\dinogame\dino\Game.cpp(36,24): warning C4244: '-=': conversion from 'float' to 'sf::Int32', possible loss of data
+  Obstacle.cpp
+C:\Users\c00260445\Desktop\dinogame\dino\Obstacle.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\c00260445\Desktop\dinogame\dino\Obstacle.cpp(15,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00260445\Desktop\dinogame\dino\Obstacle.cpp(24,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+  main.cpp
+  Generating Code...
+  dino.vcxproj -> C:\Users\c00260445\Desktop\dinogame\Debug\dino.exe

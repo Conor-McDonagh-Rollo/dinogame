@@ -25,8 +25,12 @@ private:
 	Obstacle ob1;
 	Obstacle ob2;
 
+	sf::Sprite gOver;
+	sf::Texture gOverTex;
+
 	sf::Clock gameSpeed;
 	float speed = 1.0f;
+	bool gameOver = false;
 
 	void processEvents();
 	void render();
